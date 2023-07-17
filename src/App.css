@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+.input {
+  padding: 10px;
+  width: 60%;
+  margin: 20px;
+  font-size: 15px;
+  height: 40px;
+  border: 1px solid #6366f1;
+  background-color: aliceblue;
+  color: #000000;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+.input :hover {
+  padding: 10px;
+  width: 70%;
+  border: 3px solid blue;
+}
+button {
+  margin: 10px;
+}
+.each-todo {
+  display: flex;
+}
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-container {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: aliceblue;
+  width: 90%;
+  padding: 10px;
+  min-height: 60vh;
+  border-radius: 20px;
+}
+.category-container {
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+.each-todo-container {
+  background-color: rgb(167, 156, 233);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 50px;
+  width: 300px;
+  border-radius: 10px;
+}
+.each-item {
+  background-color: rgb(141, 232, 162);
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+  margin: 1%;
+  border-radius: 10px;
+}
+.display {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.displays {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.heading {
+  margin-left: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(232, 54, 5);
+  align-self: center;
+}
+
+.main-heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: yellowgreen;
+}
+.checkbox {
+  accent-color: rgb(207, 36, 142);
+  width: 20px;
+  height: 20px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+.each-category {
+  background-color: aliceblue;
+  margin: 20px;
+}
